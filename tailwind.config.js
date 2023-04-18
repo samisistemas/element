@@ -93,7 +93,7 @@ const colors = {
 
 colors.info = colors.primary
 colors.secondary = colors.default
-colors.teal = colors.primary
+colors.teal = colors.default
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -105,7 +105,6 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    colors: colors,
     extend: {
       colors: {
         colors
