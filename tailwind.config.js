@@ -105,6 +105,11 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
+    fontFamily: {
+      'sans': ['Inter', 'sans-serif'],
+      'serif': ['Inter', 'serif'],
+      'mono': ['Inter', 'monospace'],
+    },
     extend: {
       colors: colors,
       fontSize: {
@@ -127,7 +132,8 @@ module.exports = {
       },
       animation: {
         'linear-progress': 'linear-progress 2s linear infinite'
-      }
+      },
+
     }
   },
   plugins: [
