@@ -110,13 +110,13 @@ module.exports = {
 			'serif': ['Inter', 'serif'],
 			'mono': ['Inter', 'monospace'],
 		},
-		borderRadius: {
-			'none': '0',
-			DEFAULT: '0.5rem',
-			'full': '624rem',
-		},
 		extend: {
 			colors: colors,
+			borderRadius: {
+				'none': '0',
+				DEFAULT: '0.5rem',
+				'full': '624rem',
+			},
 			keyframes: {
 				'linear-progress': {
 					'0%': { left: '-30%' },
