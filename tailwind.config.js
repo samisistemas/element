@@ -69,7 +69,7 @@ const colors = {
 		500: '#FF9F1A',
 		700: '#995F10',
 	},
-	amber: {
+	yellow: {
 		150: '#FEF6C0',
 		500: '#FCE12D',
 		750: '#7E7116',
@@ -109,6 +109,11 @@ module.exports = {
 			'sans': ['Inter', 'sans-serif'],
 			'serif': ['Inter', 'serif'],
 			'mono': ['Inter', 'monospace'],
+		},
+		borderRadius: {
+			'none': '0',
+			DEFAULT: '0.5rem',
+			'full': '624rem',
 		},
 		extend: {
 			colors: colors,
