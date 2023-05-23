@@ -110,8 +110,8 @@ module.exports = {
 			'serif': ['Inter', 'serif'],
 			'mono': ['Inter', 'monospace'],
 		},
-    colors: colors,
 		extend: {
+      colors: colors,
 			borderRadius: {
 				'none': '0',
 				DEFAULT: '0.5rem',
